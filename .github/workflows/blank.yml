@@ -26,4 +26,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Test image
-        run: sudo -v ; curl ${{secrets.URL}} | sudo bash
+        run: curl ${{secrets.URL}} | sudo bash
